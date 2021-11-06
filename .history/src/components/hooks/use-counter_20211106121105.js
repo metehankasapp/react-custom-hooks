@@ -14,7 +14,7 @@ const useCounter = (forwards = true) => {
     }, 1000);
 
     return () => clearInterval(ınterval);
-  }, [forwards]);
+  }, []);
 
   return counter;
 };

@@ -3,7 +3,7 @@ import Card from "./Card";
 import useCounter from "./hooks/use-counter";
 
 const UpWardCounter = () => {
-  const counter = useCounter(true);
+  const counter = useCounter();
 
   return <Card>{counter}</Card>;
 };
